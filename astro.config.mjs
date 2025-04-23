@@ -6,7 +6,7 @@ import siteConfig from './src/data/site-config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: portfolio.github.io,
+    site: website,
     vite: {
         plugins: [tailwindcss()]
     },
